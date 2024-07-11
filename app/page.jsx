@@ -9,7 +9,7 @@ export default function Page() {
         <div className="max-w-[400px] flex flex-col mx-auto px-4">
           {startPage ? <>
             <div className="flex flex-col h-[100dvh] w-full justify-center items-center">
-              <h2 className="mb-6 text-center">本日はご来店ありがとうございます<br />該当する面接の種別を選択をお願いします</h2>
+              <h2 className="mb-6 text-center">本日はご来店ありがとうございます<br />該当する面接種別の選択をお願いします</h2>
               <div className="flex w-full">
                 <div onClick={()=>setStartPage(false)} className="w-[100px] h-[100px] rounded-xl bg-surface-100 dark:bg-surfacedark-100 flex shadow-lg dark:shadow-gray-50/10 items-center justify-center mr-8">
                   <p>スタッフ</p>
