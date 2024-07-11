@@ -467,9 +467,6 @@ export default function Page() {
   </div>
 </div>
 <div className="flex flex-col items-start self-stretch py-0 px-3 rounded-tl rounded-tr">
-  <div className="bottom-[-1.25rem] flex absolute items-start gap-2.5 pl-[var(--sds-size-space-400)] pr-[var(--sds-size-space-400)] pt-1 pb-0 px-4 w-[412px] h-5 supporting-text-1 Roboto)'] 12px)] 16px)] text-[#49454f] font-['var(--Body-Small-Font, text-[var(--Body-Small-Size, leading-[var(--Body-Small-Line-Height,">
-    Supporting text
-  </div>
   <div className="flex flex-col items-start gap-2.5 self-stretch h-14 rounded-tl rounded-tr bg-[#e6e0e9]">
     <div className="state-layer flex items-start self-stretch pl-[var(--sds-size-space-400)] py-1 pl-4 pr-0 rounded-tl rounded-tr">
       <div className="content flex flex-col justify-center items-start py-1 px-0 h-12">
