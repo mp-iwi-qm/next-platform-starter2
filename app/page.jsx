@@ -11,18 +11,18 @@ export default function Page() {
             <div className="flex flex-col h-[100dvh] w-full justify-center items-center">
               <h2 className="mb-6 text-center font-bold">本日はご来店ありがとうございます<br />該当する面接種別の選択をお願いします</h2>
               <div className="flex w-full mx-auto justify-center items-center mb-8">
-                <div onClick={()=>setStartPage(false)} className="w-[100px] h-[100px] rounded-xl bg-gray-100 dark:bg-surfacedark-100 flex shadow-lg dark:shadow-gray-50/10 items-center justify-center mr-8">
+                <div onClick={()=>setStartPage(false)} className="w-[100px] h-[100px] text-center rounded-xl bg-gray-100 dark:bg-surfacedark-100 flex shadow-lg dark:shadow-gray-50/10 items-center justify-center mr-8">
                   <p>正社員<br />スタッフ</p>
                 </div>
-                <div onClick={()=>setStartPage(false)} className="w-[100px] h-[100px] rounded-xl bg-gray-100 dark:bg-surfacedark-100 flex shadow-lg dark:shadow-gray-50/10 items-center justify-center">
+                <div onClick={()=>setStartPage(false)} className="w-[100px] h-[100px] text-center rounded-xl bg-gray-100 dark:bg-surfacedark-100 flex shadow-lg dark:shadow-gray-50/10 items-center justify-center">
                   <p>キャスト</p>
                 </div>
               </div>
               <div className="flex w-full mx-auto justify-center items-center">
-                <div onClick={()=>setStartPage(false)} className="w-[100px] h-[100px] rounded-xl bg-gray-100 dark:bg-surfacedark-100 flex shadow-lg dark:shadow-gray-50/10 items-center justify-center mr-8">
+                <div onClick={()=>setStartPage(false)} className="w-[100px] h-[100px] text-center rounded-xl bg-gray-100 dark:bg-surfacedark-100 flex shadow-lg dark:shadow-gray-50/10 items-center justify-center mr-8">
                   <p>アルバイト<br />スタッフ</p>
                 </div>
-                <div onClick={()=>setStartPage(false)} className="w-[100px] h-[100px] rounded-xl bg-gray-100 dark:bg-surfacedark-100 flex shadow-lg dark:shadow-gray-50/10 items-center justify-center">
+                <div onClick={()=>setStartPage(false)} className="w-[100px] h-[100px] text-center rounded-xl bg-gray-100 dark:bg-surfacedark-100 flex shadow-lg dark:shadow-gray-50/10 items-center justify-center">
                   <p>ヘルプ<br />キャスト</p>
                 </div>
               </div>
