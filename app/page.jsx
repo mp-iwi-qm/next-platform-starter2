@@ -1,6 +1,6 @@
 export default function Page() {
     return (
-      <body className="font-sans w-full justify-center items-start bg-[#F5EFF7] text-base font-normal text-gray-700 dark:text-gray-200 bg-surface-100 dark:bg-surfacedark-100">
+      <body className="font-sans w-full justify-center items-start bg-[#FEF7FF] text-base font-normal text-gray-700 dark:text-gray-200 bg-surface-100 dark:bg-surfacedark-100">
         <div className="max-w-[400px] flex flex-col mx-auto px-4">
           <div className="w-full pt-12 pb-8 flex justify-center items-center">
             基本情報
