@@ -99,7 +99,6 @@ export default function Page() {
     </div>
     <div className="flex flex-col justify-center items-center gap-2.5 w-12 h-12">
     </div>
-  </div>
   <div className="flex justify-between items-center self-stretch pl-[var(--sds-size-space-400)] py-1 pl-4 pr-3">
     <div className="flex flex-col items-start gap-2.5">
       <div className="flex justify-center items-center gap-2 py-2 pl-2 pr-1 rounded-full">
@@ -412,7 +411,6 @@ export default function Page() {
   </div>
   <div className="flex flex-shrink-0 justify-between items-start self-stretch pt-2 pb-3 px-3 h-[3.75rem]">
   </div>
-</div>
             </section>            
         </main>
     );
