@@ -1,7 +1,25 @@
+"use client;"
+
+import { useState } from "react"; 
+
 export default function Page() {
+    const [startPage, setStartPage] = useState(true)
     return (
       <body className="font-sans w-full justify-center items-start bg-[#FEF7FF] text-base font-normal text-gray-700 dark:text-gray-200 bg-surface-100 dark:bg-surfacedark-100">
         <div className="max-w-[400px] flex flex-col mx-auto px-4">
+          {startPage ? <>
+            <div className="flex h-[100dvh] w-full justify-center items-center">
+              <h2>面接にお越しいただきありがとうございます。</h2>
+              <div className="flex w-full justify-around">
+                <div onClick={()=>setStartPage(false)} className="w-36 h-36 rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
+                  <p>スタッフ</p>
+                </div>
+                <div onClick={()=>setStartPage(false)} className="w-36 h-36 rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
+                  <p>キャスト</p>
+                </div>
+              </div>
+            </div>
+          </> : <>
           <div className="w-full pt-12 pb-8 flex justify-center items-center">
             基本情報
           </div>
@@ -224,6 +242,7 @@ export default function Page() {
             </div>
             <div className="pt-1 px-4 text-xs tracking-[0.4px]">Supporting text</div>
           </div>
+          </>}
         </div>
       </body>
     );
