@@ -179,7 +179,7 @@ export default function Page() {
           <div className="mb-3 w-full rounded-md bg-gray-100 h-[60px] dark:bg-gray-700 flex  items-center justify-center">
             <p>本人確認ファイルの撮影またはアップロード</p>
           </div>
-          <button className="btn-outline relative flex flex-row items-center justify-center gap-x-2 py-2.5 px-6 rounded-[6.25rem] text-sm tracking-[.00714em] font-medium border border-gray-500 text-primary-600 dark:border-gray-400 dark:text-primary-200">
+          <button className="mb-12 btn-outline relative flex flex-row items-center justify-center gap-x-2 py-2.5 px-6 rounded-[6.25rem] text-sm tracking-[.00714em] font-medium border border-gray-500 text-primary-600 dark:border-gray-400 dark:text-primary-200">
             <span className="material-symbols-outlined">✓</span>登録する
           </button>
           </>}
