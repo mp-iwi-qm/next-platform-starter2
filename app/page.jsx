@@ -8,13 +8,13 @@ export default function Page() {
       <body className="font-sans w-full justify-center items-start bg-[#FEF7FF] text-base font-normal text-gray-700 dark:text-gray-200 bg-surface-100 dark:bg-surfacedark-100">
         <div className="max-w-[400px] flex flex-col mx-auto px-4">
           {startPage ? <>
-            <div className="flex h-[100dvh] w-full justify-center items-center">
-              <h2>面接にお越しいただきありがとうございます。</h2>
+            <div className="flex flex-col h-[100dvh] w-full justify-center items-center">
+              <h2 className="mb-3">面接にお越しいただきありがとうございます。</h2>
               <div className="flex w-full justify-around">
-                <div onClick={()=>setStartPage(false)} className="w-36 h-36 rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
+                <div onClick={()=>setStartPage(false)} className="w-[100px] h-[100px] rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
                   <p>スタッフ</p>
                 </div>
-                <div onClick={()=>setStartPage(false)} className="w-36 h-36 rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
+                <div onClick={()=>setStartPage(false)} className="w-[100px] h-[100px] rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
                   <p>キャスト</p>
                 </div>
               </div>
