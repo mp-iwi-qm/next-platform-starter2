@@ -1,8 +1,3 @@
-import { Card } from 'components/card';
-import { getNetlifyContext } from 'utils';
-
-const ctx = getNetlifyContext();
-
 export default function Page() {
     return (
       <body class="font-sans text-base font-normal text-gray-700 dark:text-gray-200 bg-surface-100 dark:bg-surfacedark-100">
