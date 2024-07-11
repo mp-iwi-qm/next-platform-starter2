@@ -51,7 +51,7 @@ export default function Page() {
           </div>
           <div className="flex flex-col mb-3">
             <div className="relative z-0">
-              <input type="date" aria-label="inputtext" name="inputtext" id="inputs2" className="w-full h-14 block leading-5 relative pt-2 px-4 rounded-t text-gray-800 bg-gray-100 dark:bg-gray-700 border-b focus:border-b-2 border-gray-500 dark:border-gray-400 overflow-x-auto focus:outline-none focus:border-primary-600 focus:ring-0 dark:text-gray-200 dark:focus:border-primary-200 peer" placeholder=" " />
+              <input type="date" aria-label="inputtext" name="inputtext" id="inputs2" className="min-w-full w-full h-14 block leading-5 relative pt-2 px-4 rounded-t text-gray-800 bg-gray-100 dark:bg-gray-700 border-b focus:border-b-2 border-gray-500 dark:border-gray-400 overflow-x-auto focus:outline-none focus:border-primary-600 focus:ring-0 dark:text-gray-200 dark:focus:border-primary-200 peer" placeholder=" " />
               <label for="inputs2" className="absolute text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-3.5 scale-75 top-4 z-10 origin-[0] left-4 peer-focus:left-4 peer-focus:text-primary-600 dark:peer-focus:text-primary-200 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3.5 peer-invalid:text-error-600 dark:peer-invalid:text-error-200">生年月日を入力してください。</label>
             </div>
             <div className="pt-1 px-4 text-xs tracking-[0.4px] h-[20px]"></div>
@@ -176,7 +176,7 @@ export default function Page() {
           <div className="w-full pt-12 pb-8 flex justify-center items-center">
             本人確認書類
           </div>
-          <div className="mb-3 w-full rounded-md bg-gray-100 h-[60px] dark:bg-gray-700 flex  items-center justify-center">
+          <div className="mb-12 w-full rounded-md bg-gray-100 h-[60px] dark:bg-gray-700 flex  items-center justify-center">
             <p>本人確認ファイルの撮影またはアップロード</p>
           </div>
           <button className="mb-12 btn-outline relative flex flex-row items-center justify-center gap-x-2 py-2.5 px-6 rounded-[6.25rem] text-sm tracking-[.00714em] font-medium border border-gray-500 text-primary-600 dark:border-gray-400 dark:text-primary-200">
