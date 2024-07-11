@@ -10,8 +10,8 @@ export default function Page() {
           {startPage ? <>
             <div className="flex flex-col h-[100dvh] w-full justify-center items-center">
               <h2 className="mb-3">面接にお越しいただきありがとうございます。</h2>
-              <div className="flex w-full justify-around">
-                <div onClick={()=>setStartPage(false)} className="w-[100px] h-[100px] rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
+              <div className="flex w-full">
+                <div onClick={()=>setStartPage(false)} className="w-[100px] h-[100px] rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center mr-8">
                   <p>スタッフ</p>
                 </div>
                 <div onClick={()=>setStartPage(false)} className="w-[100px] h-[100px] rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
