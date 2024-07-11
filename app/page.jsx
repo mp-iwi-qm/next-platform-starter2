@@ -28,6 +28,10 @@ export default function Page() {
               </div>
             </div>
           </> : <>
+          <div className="w-full pt-12 pb-8 font-bold text-lg text-center flex justify-center items-center">
+            エントリーシート<br />
+            <span className="text-xs">下記内容に沿ってご入力をお願いします</span>
+          </div>
           <div className="w-full pt-12 pb-8 flex justify-center items-center">
             基本情報
           </div>
