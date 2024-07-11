@@ -28,8 +28,8 @@ export default function Page() {
               </div>
             </div>
           </> : <>
-          <div className="w-full pt-12 pb-8 font-bold text-lg text-center flex flex-col justify-center items-center">
-            <p className="font-lg text-center w-full">エントリーシート</p>
+          <div className="w-full pt-12 pb-2 font-bold text-lg text-center flex flex-col justify-center items-center">
+            <p className="font-lg text-center w-full mb-2">エントリーシート</p>
             <span className="text-xs w-full">下記内容に沿ってご入力をお願いします</span>
           </div>
           <div className="w-full pt-12 pb-8 flex justify-center items-center">
