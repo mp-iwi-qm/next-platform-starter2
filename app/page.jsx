@@ -91,15 +91,8 @@ export default function Page() {
     </div>
   </div>
 </div>
-<div className="flex flex-shrink-0 justify-center items-center gap-2.5 w-10 h-10 date-8 Roboto)'] 16px)] 24px)] text-[#1d1b20] text-center font-['var(--Body-Large-Font, text-[var(--Body-Large-Size, leading-[var(--Body-Large-Line-Height,">
-      2
-    </div>
-      <div className="flex justify-center items-center gap-2.5 w-10 h-10 rounded-full">
-      <div className="week_day__day Roboto)'] 32px)] 40px)] self-stretch h-10 text-[#1d1b20] font-['var(--Headline-Large-Font, text-[var(--Headline-Large-Size, leading-[var(--Headline-Large-Line-Height,">2023/07/17</div>
-    </div>
-    <div className="flex flex-col justify-center items-center gap-2.5 w-12 h-12">
-    </div>
-  <div className="flex justify-between items-center self-stretch pl-[var(--sds-size-space-400)] py-1 pl-4 pr-3">
+
+<div className="flex justify-between items-center self-stretch pl-[var(--sds-size-space-400)] py-1 pl-4 pr-3">
     <div className="flex flex-col items-start gap-2.5">
       <div className="flex justify-center items-center gap-2 py-2 pl-2 pr-1 rounded-full">
         <div className="label-text Roboto)'] 14px)] 20px)] text-[#49454f] text-center font-['var(--Label-Large-Font, text-[var(--Label-Large-Size, font-medium leading-[var(--Label-Large-Line-Height,">2023年 7月</div>
@@ -409,9 +402,8 @@ export default function Page() {
       </div>
     </div>
   </div>
-  <div className="flex flex-shrink-0 justify-between items-start self-stretch pt-2 pb-3 px-3 h-[3.75rem]">
-  </div>
-  <div className="flex flex-col items-start gap-2.5 self-stretch h-14 rounded-tl rounded-tr bg-[#e6e0e9]">
+
+<div className="flex flex-col items-start gap-2.5 self-stretch h-14 rounded-tl rounded-tr bg-[#e6e0e9]">
   <div className="state-layer flex items-start self-stretch pl-[var(--sds-size-space-400)] py-1 pl-4 pr-0 rounded-tl rounded-tr">
     <div className="content flex flex-col justify-center items-start py-1 px-0 h-12">
       <div className="flex items-center label-text-1 Roboto)'] 12px)] 16px)] text-[#49454f] font-['var(--Body-Small-Font, text-[var(--Body-Small-Size, leading-[var(--Body-Small-Line-Height,">
