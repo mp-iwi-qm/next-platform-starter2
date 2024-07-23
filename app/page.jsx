@@ -320,6 +320,23 @@ export default function Page() {
             </div>
             <div className="pt-1 px-4 text-xs tracking-[0.4px] h-[20px]"></div>
           </div> 
+          <div className="flex flex-col mb-3">
+            <div className="relative z-0">
+              <textarea aria-label="inputtext" name="inputtext" id="input42" className="w-full h-[200px] pt-8 block leading-5 relative pt-2 px-4 rounded-t text-gray-800 bg-gray-100 border-b focus:border-b-2 border-gray-500 overflow-x-auto focus:outline-none focus:border-primary-600 focus:ring-0 peer" placeholder=" " />
+              <label for="input42" className="absolute text-gray-500 duration-300 transform -translate-y-3.5 scale-75 top-4 z-10 origin-[0] left-4 peer-focus:left-4 peer-focus:text-primary-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3.5 peer-invalid:text-error-600">本人希望欄</label>
+            </div>
+            <div className="pt-1 px-4 text-xs tracking-[0.4px] h-[20px]"></div>
+          </div> 
+          <div className="w-full pt-12 pb-8 flex justify-center items-center">
+            その他
+          </div>
+          <div className="flex flex-col mb-3">
+            <div className="relative z-0">
+              <textarea aria-label="inputtext" name="inputtext" id="input223" className="w-full h-[200px] pt-8 block leading-5 relative pt-2 px-4 rounded-t text-gray-800 bg-gray-100 border-b focus:border-b-2 border-gray-500 overflow-x-auto focus:outline-none focus:border-primary-600 focus:ring-0 peer" placeholder=" " />
+              <label for="input223" className="absolute text-gray-500 duration-300 transform -translate-y-3.5 scale-75 top-4 z-10 origin-[0] left-4 peer-focus:left-4 peer-focus:text-primary-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3.5 peer-invalid:text-error-600">備考欄</label>
+            </div>
+            <div className="pt-1 px-4 text-xs tracking-[0.4px] h-[20px]"></div>
+          </div>
           <div className="w-full pt-12 pb-8 flex justify-center items-center">
             本人確認書類
           </div>
@@ -431,6 +448,16 @@ export default function Page() {
             </div>
             <div className="pt-1 px-4 text-xs tracking-[0.4px] h-[20px]"></div>
           </div> 
+          <div className="w-full pt-12 pb-8 flex justify-center items-center">
+            その他
+          </div>
+          <div className="flex flex-col mb-3">
+            <div className="relative z-0">
+              <textarea aria-label="inputtext" name="inputtext" id="input223" className="w-full h-[200px] pt-8 block leading-5 relative pt-2 px-4 rounded-t text-gray-800 bg-gray-100 border-b focus:border-b-2 border-gray-500 overflow-x-auto focus:outline-none focus:border-primary-600 focus:ring-0 peer" placeholder=" " />
+              <label for="input223" className="absolute text-gray-500 duration-300 transform -translate-y-3.5 scale-75 top-4 z-10 origin-[0] left-4 peer-focus:left-4 peer-focus:text-primary-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3.5 peer-invalid:text-error-600">備考欄</label>
+            </div>
+            <div className="pt-1 px-4 text-xs tracking-[0.4px] h-[20px]"></div>
+          </div>
           <div className="w-full pt-12 pb-8 flex justify-center items-center">
             本人確認書類
           </div>
@@ -596,6 +623,23 @@ export default function Page() {
             </div>
             <div className="pt-1 px-4 text-xs tracking-[0.4px] h-[20px]"></div>
           </div>
+          <div className="flex flex-col mb-3">
+            <div className="relative z-0">
+              <textarea aria-label="inputtext" name="inputtext" id="input42" className="w-full h-[200px] pt-8 block leading-5 relative pt-2 px-4 rounded-t text-gray-800 bg-gray-100 border-b focus:border-b-2 border-gray-500 overflow-x-auto focus:outline-none focus:border-primary-600 focus:ring-0 peer" placeholder=" " />
+              <label for="input42" className="absolute text-gray-500 duration-300 transform -translate-y-3.5 scale-75 top-4 z-10 origin-[0] left-4 peer-focus:left-4 peer-focus:text-primary-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3.5 peer-invalid:text-error-600">本人希望欄</label>
+            </div>
+            <div className="pt-1 px-4 text-xs tracking-[0.4px] h-[20px]"></div>
+          </div> 
+          <div className="w-full pt-12 pb-8 flex justify-center items-center">
+            その他
+          </div>
+          <div className="flex flex-col mb-3">
+            <div className="relative z-0">
+              <textarea aria-label="inputtext" name="inputtext" id="input223" className="w-full h-[200px] pt-8 block leading-5 relative pt-2 px-4 rounded-t text-gray-800 bg-gray-100 border-b focus:border-b-2 border-gray-500 overflow-x-auto focus:outline-none focus:border-primary-600 focus:ring-0 peer" placeholder=" " />
+              <label for="input223" className="absolute text-gray-500 duration-300 transform -translate-y-3.5 scale-75 top-4 z-10 origin-[0] left-4 peer-focus:left-4 peer-focus:text-primary-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3.5 peer-invalid:text-error-600">備考欄</label>
+            </div>
+            <div className="pt-1 px-4 text-xs tracking-[0.4px] h-[20px]"></div>
+          </div>
           <div className="w-full pt-12 pb-8 flex justify-center items-center">
             本人確認書類
           </div>
@@ -697,6 +741,23 @@ export default function Page() {
             <div className="relative z-0">
               <input type="tel" aria-label="inputtext" name="inputtext" id="input99" className="w-full h-14 block leading-5 relative pt-2 px-4 rounded-t text-gray-800 bg-gray-100 border-b focus:border-b-2 border-gray-500 overflow-x-auto focus:outline-none focus:border-primary-600 focus:ring-0 peer" placeholder=" " />
               <label for="input99" className="absolute text-gray-500 duration-300 transform -translate-y-3.5 scale-75 top-4 z-10 origin-[0] left-4 peer-focus:left-4 peer-focus:text-primary-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3.5 peer-invalid:text-error-600">電話番号を入力してください。</label>
+            </div>
+            <div className="pt-1 px-4 text-xs tracking-[0.4px] h-[20px]"></div>
+          </div>
+          <div className="flex flex-col mb-3">
+            <div className="relative z-0">
+              <textarea aria-label="inputtext" name="inputtext" id="input42" className="w-full h-[200px] pt-8 block leading-5 relative pt-2 px-4 rounded-t text-gray-800 bg-gray-100 border-b focus:border-b-2 border-gray-500 overflow-x-auto focus:outline-none focus:border-primary-600 focus:ring-0 peer" placeholder=" " />
+              <label for="input42" className="absolute text-gray-500 duration-300 transform -translate-y-3.5 scale-75 top-4 z-10 origin-[0] left-4 peer-focus:left-4 peer-focus:text-primary-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3.5 peer-invalid:text-error-600">本人希望欄</label>
+            </div>
+            <div className="pt-1 px-4 text-xs tracking-[0.4px] h-[20px]"></div>
+          </div> 
+          <div className="w-full pt-12 pb-8 flex justify-center items-center">
+            その他
+          </div>
+          <div className="flex flex-col mb-3">
+            <div className="relative z-0">
+              <textarea aria-label="inputtext" name="inputtext" id="input223" className="w-full h-[200px] pt-8 block leading-5 relative pt-2 px-4 rounded-t text-gray-800 bg-gray-100 border-b focus:border-b-2 border-gray-500 overflow-x-auto focus:outline-none focus:border-primary-600 focus:ring-0 peer" placeholder=" " />
+              <label for="input223" className="absolute text-gray-500 duration-300 transform -translate-y-3.5 scale-75 top-4 z-10 origin-[0] left-4 peer-focus:left-4 peer-focus:text-primary-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3.5 peer-invalid:text-error-600">備考欄</label>
             </div>
             <div className="pt-1 px-4 text-xs tracking-[0.4px] h-[20px]"></div>
           </div>
