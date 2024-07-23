@@ -27,7 +27,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
-          </> : startPage == 4 ? <>
+          </> : startPage == 1 ? <>
           <div className="w-full pt-12 pb-2 font-bold text-lg text-center flex flex-col justify-center items-center">
             <p className="font-lg text-center w-full mb-2">エントリーシート</p>
             <span className="text-xs w-full">下記内容に沿ってご入力をお願いします</span>
@@ -329,7 +329,7 @@ export default function Page() {
           <button className="mt-12 mb-12 btn-outline relative flex flex-row items-center justify-center gap-x-2 py-2.5 px-6 rounded-[6.25rem] text-sm tracking-[.00714em] font-medium border border-gray-500 text-primary-600">
             <span className="material-symbols-outlined">✓</span>登録する
           </button>
-          </>:startPage == 4 ? <>
+          </>:startPage == 2 ? <>
           <div className="w-full pt-12 pb-2 font-bold text-lg text-center flex flex-col justify-center items-center">
             <p className="font-lg text-center w-full mb-2">エントリーシート</p>
             <span className="text-xs w-full">下記内容に沿ってご入力をお願いします</span>
@@ -440,7 +440,7 @@ export default function Page() {
           <button className="mt-12 mb-12 btn-outline relative flex flex-row items-center justify-center gap-x-2 py-2.5 px-6 rounded-[6.25rem] text-sm tracking-[.00714em] font-medium border border-gray-500 text-primary-600">
             <span className="material-symbols-outlined">✓</span>登録する
           </button>
-          </>:startPage == 4 ? <>
+          </>:startPage == 3 ? <>
           <div className="w-full pt-12 pb-2 font-bold text-lg text-center flex flex-col justify-center items-center">
             <p className="font-lg text-center w-full mb-2">エントリーシート</p>
             <span className="text-xs w-full">下記内容に沿ってご入力をお願いします</span>
