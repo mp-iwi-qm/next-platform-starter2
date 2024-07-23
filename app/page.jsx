@@ -535,6 +535,9 @@ export default function Page() {
             </div>
             <div className="pt-1 px-4 text-xs tracking-[0.4px] h-[20px]"></div>
           </div>
+          <div className="w-full pt-12 pb-8 flex justify-center items-center">
+            学歴
+          </div>
           <div className="flex flex-col mb-3">
             <div className="relative z-0">
               <input type="text" aria-label="inputtext" name="inputtext" id="input99" className="w-full h-14 block leading-5 relative pt-2 px-4 rounded-t text-gray-800 bg-gray-100 border-b focus:border-b-2 border-gray-500 overflow-x-auto focus:outline-none focus:border-primary-600 focus:ring-0 peer" placeholder=" " />
